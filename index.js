@@ -4,10 +4,15 @@ function wakeDog(dogName,dogBreed) {
   return string;
 }
 function leashDog(dogName,dogBreed) {
-  console.log(`Leash ${dogName} the ${dogBreed}`);
+  const string=`Leash ${dogName} the ${dogBreed}`;
+  console.log(string);
+  return string;
 }
 function walkToPark(dogName,dogBreed) {
+  
   console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
+  console.log(string);
+  return string;
 }
 function throwFrisbee(dogName,dogBreed) {
   console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);

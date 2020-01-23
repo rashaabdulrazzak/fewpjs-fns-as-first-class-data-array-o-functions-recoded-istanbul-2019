@@ -10,12 +10,14 @@ function leashDog(dogName,dogBreed) {
 }
 function walkToPark(dogName,dogBreed) {
        const string = `Walk to the park with ${dogName} the ${dogBreed}`;
-  console.log(`);
   console.log(string);
   return string;
 }
 function throwFrisbee(dogName,dogBreed) {
-  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
+  const string = `Throw the frisbee for ${dogName} the ${dogBreed}
+  console.log(`);
+   console.log(string);
+  return string;
 }
 function walkHome(dogName,dogBreed) {
   console.log(`Walk home with ${dogName} the ${dogBreed}`);

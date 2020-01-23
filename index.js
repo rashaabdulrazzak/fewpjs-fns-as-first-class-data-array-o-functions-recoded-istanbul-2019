@@ -19,23 +19,22 @@ function throwFrisbee(dogName,dogBreed) {
   return string;
 }
 function walkHome(dogName,dogBreed) {
-  const string
-  console.log(`Walk home with ${dogName} the ${dogBreed}`);
+  const string = `Walk home with ${dogName} the ${dogBreed}`;
+   console.log(string);
+  return string;
   
 }
 function unleashDog(dogName,dogBreed) {
-  console.log(`Unleash ${dogName} the ${dogBreed}`);
+  const string = `Unleash ${dogName} the ${dogBreed}`;
+   console.log(string);
+  return string;
 }
 let routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
-function arrayso(dogName,dogBreed,routine = ['wakeDog','leashDog','walkToPark','throwFrisbee','walkHome','unleashDog']){
-  let result=[]
-  for(let i=0;i<Arrays.length; i++){
-      Array[i](dogName,dogBreed);
-      reult[i]= 
-  }
-}
-
 
 function exerciseDog(dogName,dogBreed){
-  arrayso(dogName,dogBreed,[wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog]);
+  let str = [];
+  for (let i=0;i<routine.length; i++){
+    str.push(routine[i](dogName,dogBreed));
+  }
+  return str;
 }
